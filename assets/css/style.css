@@ -489,9 +489,7 @@ a {
 
 .w_1320 {
     max-width: 1320px;
-    overflow: scroll !important;
 }
-
 
 table {
     width: 100%;
@@ -566,6 +564,10 @@ table {
     /* Make all right containers behave like the left ones */
     .right {
         left: 0%;
+    }
+
+    .overflow_scrolltable {
+        overflow: scroll !important;
     }
 }
 
