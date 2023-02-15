@@ -518,7 +518,7 @@ table {
     max-width: 500px;
 }
 
-.gradiant {
+.gradiantbg {
     top: -50px;
     left: -0px;
     opacity: 0.8;
@@ -728,6 +728,10 @@ table {
         background-repeat: no-repeat;
         background-size: cover;
 
+    }
+
+    .container {
+        max-width: 1440px !important;
     }
 
     .aspect {
