@@ -326,8 +326,8 @@ td {
     position: absolute;
     width: 6px;
     background-color: white;
-    top: 52px;
-    bottom: 179px;
+    top: 0px;
+    bottom: -10px;
     left: 50%;
     margin-left: -3px;
 }
@@ -348,7 +348,7 @@ td {
     height: 25px;
     right: -12px;
     background: linear-gradient(180deg, #FFA800 0%, #F06500 100%);
-    top: 34px;
+    top: 0px;
     border-radius: 50%;
     z-index: 1;
 }
@@ -493,6 +493,7 @@ a {
 
 table {
     width: 100%;
+    white-space: nowrap;
 }
 
 .h100vh {
@@ -527,6 +528,45 @@ table {
     top: 0;
     right: -248px;
 }
+
+/* @media (max-width:876px) {
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 52px;
+        bottom: 207px;
+        left: 50%;
+        margin-left: -3px;
+    }
+}
+
+@media (max-width:804px) {
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 52px;
+        bottom: 233px;
+        left: 50%;
+        margin-left: -3px;
+    }
+}
+
+@media (max-width:770px) {
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 52px;
+        bottom: 261px;
+        left: 50%;
+        margin-left: -3px;
+    }
+} */
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
@@ -581,12 +621,12 @@ table {
 
 @media (max-width:992px) {
     .ulmodification {
-        height: calc(100vh - 102px);
+        height: calc(100vh - 93px);
         width: 100%;
         position: fixed;
         left: 0;
         transition: all 0.3s linear;
-        top: 102px;
+        top: 93px;
         background-color: rgba(25, 25, 24, 0.37);
         backdrop-filter: blur(45px);
     }
