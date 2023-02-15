@@ -518,6 +518,16 @@ table {
     max-width: 500px;
 }
 
+.gradiant {
+    top: -50px;
+    left: -0px;
+    opacity: 0.8;
+}
+
+.aspectgradiant {
+    max-width: 400px;
+}
+
 .pos_roadmap_right {
     right: -350px;
     z-index: 1;
@@ -607,7 +617,7 @@ table {
     }
 
     .overflow_scrolltable {
-        overflow: scroll !important;
+        overflow-x: scroll !important;
     }
 }
 
@@ -705,4 +715,25 @@ table {
     .w_1320 {
         width: 1300px;
     }
+}
+
+@media (min-width:1900px) {
+    .backdropfiltr {
+        background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%);
+        backdrop-filter: blur(16px);
+    }
+
+    .bg_img_hero_sec {
+        background-image: url(../img/png/hero_sec/bg_img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .aspect {
+
+        max-width: 600px;
+        margin-left: 50px;
+    }
+
 }
